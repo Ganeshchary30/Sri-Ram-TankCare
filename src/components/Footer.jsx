@@ -13,9 +13,8 @@ const Footer = () => {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-col brand-col">
-            <div className="logo-text footer-logo">
-              <span className="brand-sri">SRI RAM</span>
-              <span className="brand-tank">TANK CARE</span>
+            <div className="footer-logo">
+              <img src="/logo.png" alt="Sri Ram Tank Care" className="logo-img" />
             </div>
             <p className="footer-desc">
               Providing professional, safe, and mechanized water tank cleaning services in Kokapet. Ensuring the health of your family with every drop.

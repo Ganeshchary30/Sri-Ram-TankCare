@@ -16,32 +16,15 @@
   box-shadow: var(--shadow-sm);
 }
 
-.navbar.scrolled .logo-text .brand-sri {
-  color: var(--primary-color);
-}
-.navbar.scrolled .logo-text .brand-tank {
-  color: var(--accent-color);
-}
-
-.logo-text {
-  font-family: var(--font-heading);
-  font-weight: 800;
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  line-height: 1;
+.logo-img {
+  max-height: 65px;
+  width: auto;
+  display: block;
+  transition: var(--transition);
 }
 
-.brand-sri {
-  color: var(--primary-color);
-  letter-spacing: 1px;
-}
-
-.brand-tank {
-  color: var(--secondary-color);
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: 2px;
+.navbar.scrolled .logo-img {
+  max-height: 55px;
 }
 
 .nav-container {
