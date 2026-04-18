@@ -1,0 +1,128 @@
+.contact-section {
+  background-color: var(--bg-color);
+  position: relative;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.info-card {
+  background: var(--bg-offset);
+  padding: 30px 20px;
+  border-radius: 20px;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  background: white;
+  box-shadow: var(--shadow-md);
+}
+
+.info-icon {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(11, 94, 215, 0.1);
+  color: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+  transition: var(--transition);
+}
+
+.info-card:hover .info-icon {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.info-details h3 {
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.info-details p {
+  color: var(--text-main);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.info-details a {
+  transition: var(--transition);
+}
+
+.info-details a:hover {
+  color: var(--primary-color);
+}
+
+.info-sub {
+  font-size: 0.85rem !important;
+  color: var(--text-muted) !important;
+  font-weight: 400 !important;
+}
+
+.contact-form-wrapper {
+  background: var(--bg-offset);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-form h3 {
+  font-size: 1.8rem;
+  margin-bottom: 24px;
+  color: var(--text-main);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 12px;
+  background-color: white;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  color: var(--text-main);
+  transition: var(--transition);
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 4px rgba(11, 94, 215, 0.1);
+}
+
+.btn-block {
+  width: 100%;
+  padding: 16px;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 992px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+}

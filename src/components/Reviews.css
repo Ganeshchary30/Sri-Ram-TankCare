@@ -1,0 +1,77 @@
+.reviews-section {
+  background-color: var(--bg-offset);
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.review-card {
+  background: var(--bg-color);
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  position: relative;
+}
+
+.review-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-5px);
+}
+
+.quote-icon {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: rgba(56, 189, 248, 0.2);
+}
+
+.review-rating {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.review-desc {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-top: 1px solid var(--bg-offset);
+  padding-top: 20px;
+}
+
+.author-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+}
+
+.author-name {
+  color: var(--text-main);
+  margin-bottom: 2px;
+  font-size: 1.1rem;
+}
+
+.author-role {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
