@@ -8,7 +8,7 @@ const reviews = [
     id: 1,
     name: "Ramesh Kumar",
     role: "Resident, Kokapet",
-    desc: "Excellent service! The team was on time and very professional. The tank looks brand new out of nowhere. I highly recommend Sri Ram Tank Care for everyone in the area.",
+    desc: "Excellent service! The team was on time and very professional. The tank looks brand new out of nowhere. I highly recommend Sri Rama Tank Care for everyone in the area.",
     rating: 5
   },
   {

@@ -17,7 +17,7 @@ const About = () => {
             <span className="section-badge">Why Choose Us</span>
             <h2 className="section-title text-left">Purity You Can Trust, Service You Can Rely On.</h2>
             <p className="about-desc">
-              At Sri Ram Tank Care, we believe that clean water is a fundamental right. With over 11 years of dedicated service in Kokapet, we have pioneered the 6-stage mechanized cleaning process. Our method doesn't just clean the surface; it eliminates deep-seated bacteria, algae, and sludge.
+              At Sri Rama Tank Care, we believe that clean water is a fundamental right. With over 11 years of dedicated service in Kokapet, we have pioneered the 6-stage mechanized cleaning process. Our method doesn't just clean the surface; it eliminates deep-seated bacteria, algae, and sludge.
             </p>
             
             <div className="features-grid">

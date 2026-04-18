@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footer-grid">
           <div className="footer-col brand-col">
             <div className="footer-logo">
-              <img src="/logo.png" alt="Sri Ram Tank Care" className="logo-img" />
+              <img src="/logo.jpeg" alt="Sri Rama Tank Care" className="logo-img" />
             </div>
             <p className="footer-desc">
               Providing professional, safe, and mechanized water tank cleaning services in Kokapet. Ensuring the health of your family with every drop.
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Sri Ram Tank Care. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Sri Rama Tank Care. All rights reserved.</p>
           <p className="made-with">
             Made with <Heart size={14} className="heart-icon" /> in India
           </p>

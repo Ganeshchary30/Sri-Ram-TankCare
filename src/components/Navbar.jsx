@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="container nav-container">
         <div className="logo">
           <a href="#">
-            <img src="/logo.png" alt="Sri Ram Tank Care" className="logo-img" />
+            <img src="/logo.jpeg" alt="Sri Rama Tank Care" className="logo-img" />
           </a>
         </div>
         
